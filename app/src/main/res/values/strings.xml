@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">BaseDeDatos</string>
+    <string name="nombre_del_producto">Nombre del producto</string>
+    <string name="precio">Precio</string>
+    <string name="descripci_n">Descripción</string>
+    <string name="agregar_foto">Agregar Foto</string>
+    <string name="agregar_video">Agregar Video</string>
+    <string name="guardar_producto">Guardar Producto</string>
+    <string name="productos_guardados">Productos Guardados</string>
+    <string name="query_products">Query Products</string>
+    <string name="output">Output</string>
+    <string name="product_name">Product Name</string>
+    <string name="product_price">Product Price</string>
+    <string name="add_product">Add Product</string>
+</resources>

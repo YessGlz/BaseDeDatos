@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "80746689363",
+    "project_id": "basedatos-3107e",
+    "storage_bucket": "basedatos-3107e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:80746689363:android:0bbc59c46d73b987a567a6",
+        "android_client_info": {
+          "package_name": "com.example.basededatos"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-HJ-vJHcC-6NCnRVOC96_VuxpANlkP9I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

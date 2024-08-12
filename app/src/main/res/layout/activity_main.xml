@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#98E5EF"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/productNameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#2196F3"
+        android:hint="@string/product_name"
+        android:padding="8dp" />
+
+    <EditText
+        android:id="@+id/productPriceEditText"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_below="@id/productNameEditText"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#2196F3"
+        android:hint="@string/product_price"
+        android:inputType="numberDecimal"
+        android:padding="8dp" />
+
+    <Button
+        android:id="@+id/addProductButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/productPriceEditText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#2196F3"
+        android:text="@string/add_product" />
+
+    <Button
+        android:id="@+id/queryProductsButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/addProductButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#009688"
+        android:text="@string/query_products" />
+
+    <TextView
+        android:id="@+id/outputTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/queryProductsButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="@string/output" />
+</RelativeLayout>
+
